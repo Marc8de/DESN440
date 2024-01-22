@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: chromatica;
-    src: url(assets/ChromaticaTrial/ChromaticaTrial-Regular.otf);
+    src: url(ChromaticaTrial/ChromaticaTrial-Regular.otf);
 }
 @font-face {
     font-family: hellenic;
-    src: url(assets/HellenicTypewriterTrial/HellenicTypewriterTrial-Regular.otf);
+    src: url(HellenicTypewriterTrial/HellenicTypewriterTrial-Regular.otf);
 }
 
 * {
