@@ -1,0 +1,23 @@
+/*
+.title {
+    color: green;
+}
+*/
+
+@font-face {
+    font-family: chromatica;
+    src: url(assets/ChromaticaTrial/ChromaticaTrial-Regular.otf);
+}
+@font-face {
+    font-family: hellenic;
+    src: url(assets/HellenicTypewriterTrial/HellenicTypewriterTrial-Regular.otf);
+}
+
+* {
+    font-family: chromatica;
+}
+.title {
+    color: green;
+}
+
+.btn {margin-top: 2em}
