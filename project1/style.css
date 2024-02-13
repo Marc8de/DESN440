@@ -1,0 +1,114 @@
+/* css file */
+
+/*color palette
+#211F26
+#6B5A40
+#C6AF6F
+#C9672A
+*/
+
+@font-face{
+    font-family: "ostrichsans";
+    src: url("../project1/ostrich-sans/ostrichsans-bold-webfont.woff2");
+    src: url("../project1/ostrich-sans/ostrichsans-heavy-webfont.woff2");
+    src: url("../project1/ostrich-sans/ostrichsans-medium-webfont.woff2");
+}
+@font-face{
+  font-family: "amble";
+  src: url("../project1/amble/amble-regular-webfont.woff2") ;
+}
+h1 {
+  font-family: 'ostrichsans-heavy';
+  font-size: 72px;
+}
+h2 {font-family: 'ostrichsans-medium';
+font-size:42px;
+color: #C5AF6F;
+padding:1rem;
+margin: 0;
+}
+h3 {font-family: 'ostrichsans-bold';
+font-size:28px;
+color: #C5AF6F;
+}
+h4 {font-family: ostrichsans-medium;
+    font-size: 24px;
+    color: #C5AF6F;
+}
+h5 {font-family: ostrichsans-black;
+    font-size: 18px;
+    color: #C5AF6F;
+}
+p { 
+  font-family:'amble'; 
+}
+a {
+  color: inherit; 
+}
+#Homebtn {
+  color: inherit; 
+  text-decoration: inherit;
+}
+a:hover{
+  color:#C9672A;
+}
+li {
+  list-style:
+}
+.logoimagecol{
+  z-index: -1;
+}
+.logoimage {
+  rotate: -25deg;
+  width: 80%;
+  height: auto;
+}
+
+.sidenav a, .dropdown-btn{
+  font-family: amble;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #6B5A40;
+  display: block;
+  border: none;
+  background: none;
+  text-align: left;
+  outline: none;
+}
+.sidenav a:hover {
+  color:#C6AF6F;
+}
+
+.main-content{
+  background-color: #211F26;
+}
+.accordion-body {
+  padding: 3em;
+  color: #fff;
+}
+.accordion-button{
+  background-color: transparent;
+}
+.accordion-button h2:hover{
+  color:#6B5A40;
+}
+.accordion-button:not(.collapsed) {
+  color:#fff;
+  background-color: transparent;
+}
+.accordion-item{
+  background-color:transparent;
+}
+
+#conributor-list{list-style: none;}
+
+.designimages{
+  width: 100%;
+  height: auto;
+}
+footer{
+  font-size: 11px;
+  margin-top: 6em;
+  text-align: center;
+}
