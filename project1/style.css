@@ -11,7 +11,7 @@
     font-family: "ostrichsans";
     src: url("../project1/ostrich-sans/ostrichsans-bold-webfont.woff2");
     src: url("../project1/ostrich-sans/ostrichsans-heavy-webfont.woff2");
-    src: url("../project1/ostrich-sans/ostrichsansrounded-medium-webfont.woff2");
+    src: url("../project1/ostrich-sans/ostrichsans-medium-webfont.woff2");
     src: url("../project1/ostrich-sans/ostrichsans-black-webfont.woff2");
 }
 @font-face{
@@ -32,7 +32,7 @@ h3 {font-family: 'ostrichsans-bold';
 font-size:28px;
 color: #C5AF6F;
 }
-h4 {font-family: 'ostrichsansrounded-medium';
+h4 {font-family: 'ostrichsans-medium';
     font-size: 24px;
     color: #C5AF6F;
 }
